@@ -10,8 +10,8 @@ on init
     start boot-hal-1-2
 
 on fs
-    wait /dev/block/platform/soc/11270000.ufshci
-    symlink /dev/block/platform/soc/11270000.ufshci /dev/block/bootdevice
+    wait /dev/block/platform/soc/112b0000.ufshci
+    symlink /dev/block/platform/soc/112b0000.ufshci /dev/block/bootdevice
     install_keyring
 
 on boot
